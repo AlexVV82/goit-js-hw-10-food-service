@@ -10,139 +10,149 @@
     </head>
 <body> 
     <header>
-    <nav>
-        <a href="">
-            <img src="./images/Header/Web Studio.svg" alt="LOGO">
-        </a>
-        <ul>
-            <li><a href="">Студия</a></li>
-            <li><a href="">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
-        </ul>
-    </nav>
-        <ul>
-            <li><a href="">
-                <img src="./images/Header/E-mail.svg" alt="">
-            </a></li>
-                <img src="./images/Header/Tel.svg" alt="">
-            </a></li>
-        </ul>
+        <nav class="navigation">
+            <a class="logo" href="">
+                <img class="logo-img" src="./images/Header/Web Studio.svg" alt="LOGO">
+            </a>
+            <ul class="mein-menu-list">
+                <li class="mein-menu-list-item link list"><a href="./index.html">Студия</a></li>
+                <li class="mein-menu-list-item link list"><a href="./portfolio.html">Портфолио</a></li>
+                <li class="mein-menu-list-item link list"><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <address class="address">
+            <ul class="address-list">
+                <li class="address-list-item">
+                    <a class="address-item-link link list" href="mailto:info@devstudio.com">
+                    <p>info@devstudio.com</p>
+                    <img src="./images/Header/envelope.svg" alt="">
+                    </a>
+                </li>
+                <li class="header-contact-item link list">
+                    <a class="address-item-link link list" href="+38 096 111 11 11">
+                    <p>+38 096 111 11 11</p>
+                    <img src="./images/Header/Tel.svg" alt="">
+                    <img src="./images/Header/tel point.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </address>      
         
     </header>
     <main>
         <!--filter-->        
         <div>
-            <nav>
-            <ul>
-                <li>
-                    <button type="button">Все</button>
+            <nav class="navigation-filter">
+            <ul class="filter-list">
+                <li class="filter-item">
+                    <button type="button" class="filter-item-button">Все</button>
                 </li>
-                <li>
-                    <button type="button">Веб-сайты</button>
+                <li class="filter-item">
+                    <button type="button" class="filter-item-button">Веб-сайты</button>
                 </li>
-                <li>
-                    <button type="button">Приложения</button>
+                <li class="filter-item">
+                    <button type="button" class="filter-item-button">Приложения</button>
                 </li>
-                <li>
-                    <button type="button">Дизайн</button>
+                <li class="filter-item">
+                    <button type="button" class="filter-item-button">Дизайн</button>
                 </li>
-                <li>
-                    <button type="button">Маркетинг</button>
+                <li class="filter-item">
+                    <button type="button" class="filter-item-button">Маркетинг</button>
                 </li>               
             </ul>            
             </nav>
         </div> 
         <!--project-->
         <div>
-            <section>
-                <ul>
-                    <li>
-                        <a href="">
+            <section class="project-section">
+                <ul class="project-list">
+                    <li class="project-list-item">
+                        <a class="project-list-link list link" href="">
                             <section>
-                                <img src="./images/portfolio/project/container bg.svg" alt="">
-                                <img src="./images/portfolio/project/technocryac 1.svg" alt="">
-                                <h3>Технокряк</h3>
-                                <p>Веб-сайт</p>
+                                <img class="project-item-bg" src="./images/portfolio/project/container bg.svg" alt="">
+                                <img class="project-item-image" src="./images/portfolio/project/technocryac 1.svg" alt="">
+                                <h3 class="project-item-title">Технокряк</h3>
+                                <p class="project-item-description">Веб-сайт</p>
                             </section>
                         </a>                        
                     </li>
-                    <li>
-                        <a href="">
+                    <li class="project-list-item">
+                        <a class="project-list-link list link" href="">
                             <section>
-                                <img src="./images/portfolio/project/container bg.svg" alt="">
-                                <img src="./images/portfolio/project/New Orlean.svg" alt="">
-                                <h3>Постер<span lang="en">New Orlean vs Golden Star</span></h3>
-                                <p>Дизайн</p>
+                                <img class="project-item-bg" src="./images/portfolio/project/container bg.svg" alt="">
+                                <img class="project-item-image" src="./images/portfolio/project/New Orlean.svg" alt="">
+                                <h3 class="project-item-title">Постер<span lang="en">New Orlean vs Golden Star</span></h3>
+                                <p class="project-item-description">Дизайн</p>
                             </section>
                         </a>                        
                     </li>
-                    <li>
-                        <a href="">
+                    <li class="project-list-item">
+                        <a class="project-list-link list link" href="">
                             <section>
-                                <img src="./images/portfolio/project/container bg.svg" alt="">
-                                <img src="./images/portfolio/project/Seafood.svg" alt="">
-                                <h3>Ресторан<span lang="en">Seafood</span></h3>
-                                <p>Приложение</p>
+                                <img class="project-item-bg" src="./images/portfolio/project/container bg.svg" alt="">
+                                <img class="project-item-image" src="./images/portfolio/project/Seafood.svg" alt="">
+                                <h3 class="project-item-title">Ресторан<span lang="en">Seafood</span></h3>
+                                <p class="project-item-description">Приложение</p>
                             </section>
                         </a>                        
                     </li>
-                    <li>
-                        <a href="">
+                    <li class="project-list-item">
+                        <a class="project-list-link list link" href="">
                             <section>
-                                <img src="./images/portfolio/project/container bg.svg" alt="">
-                                <img src="./images/portfolio/project/Prime.svg" alt="">
-                                <h3>Проект<span lang="en">Prime</span></h3>
-                                <p>Маркетинг</p>
+                                <img class="project-item-bg"src="./images/portfolio/project/container bg.svg" alt="">
+                                <img class="project-item-image" src="./images/portfolio/project/Prime.svg" alt="">
+                                <h3 class="project-item-title">Проект<span lang="en">Prime</span></h3>
+                                <p class="project-item-description">Маркетинг</p>
                             </section>
                         </a>                        
                     </li>
-                    <li>
-                        <a href="">
+                    <li class="project-list-item">
+                        <a class="project-list-link list link" href="">
                             <section>
-                                <img src="./images/portfolio/project/container bg.svg" alt="">
-                                <img src="./images/portfolio/project/Boxes.svg" alt="">
-                                <h3>Проект<span lang="en">Boxes</span></h3>
-                                <p>Приложение</p>
+                                <img class="project-item-bg" src="./images/portfolio/project/container bg.svg" alt="">
+                                <img class="project-item-image" src="./images/portfolio/project/Boxes.svg" alt="">
+                                <h3 class="project-item-title">Проект<span lang="en">Boxes</span></h3>
+                                <p class="project-item-description">Приложение</p>
                             </section>
                         </a>                        
                     </li>
-                    <li>
-                        <a href="">
+                    <li class="project-list-item">
+                        <a class="project-list-link list link" href="">
                             <section>
-                                <img src="./images/portfolio/project/container bg.svg" alt="">
-                                <img src="./images/portfolio/project/Inspiration has no Borders.svg" alt="">
-                                <h3><span lang="en">Inspiration has no Borders</span></h3>
-                                <p>Веб-сайт</p>
+                                <img class="project-item-bg" src="./images/portfolio/project/container bg.svg" alt="">
+                                <img class="project-item-image" src="./images/portfolio/project/Inspiration has no Borders.svg" alt="">
+                                <h3 class="project-item-title"><span lang="en">Inspiration has no Borders</span></h3>
+                                <p class="project-item-description">Веб-сайт</p>
                             </section>
                         </a>                        
                     </li>
-                    <li>
-                        <a href="">
+                    <li class="project-list-item">
+                        <a class="project-list-link list link" href="">
                             <section>
-                                <img src="./images/portfolio/project/container bg.svg" alt="">
-                                <img src="./images/portfolio/project/Limited Edition.svg" alt="">
-                                <h3>Издание<span lang="en">Limited Edition</span></h3>
-                                <p>Дизайн</p>
+                                <img class="project-item-bg" src="./images/portfolio/project/container bg.svg" alt="">
+                                <img class="project-item-image" src="./images/portfolio/project/Limited Edition.svg" alt="">
+                                <h3 class="project-item-title">Издание<span lang="en">Limited Edition</span></h3>
+                                <p class="project-item-description">Дизайн</p>
                             </section>
                         </a>                        
                     </li>
-                    <li>
-                        <a href="">
+                    <li class="project-list-item">
+                        <a class="project-list-link list link" href="">
                             <section>
-                                <img src="./images/portfolio/project/container bg.svg" alt="">
-                                <img src="./images/portfolio/project/LAB.svg" alt="">
-                                <h3>Проект<span lang="en">LAB</span></h3>
-                                <p>Маркетинг</p>
+                                <img class="project-item-bg" src="./images/portfolio/project/container bg.svg" alt="">
+                                <img class="project-item-image" src="./images/portfolio/project/LAB.svg" alt="">
+                                <h3 class="project-item-title">Проект<span lang="en">LAB</span></h3>
+                                <p class="project-item-description">Маркетинг</p>
                             </section>
                         </a>                        
                     </li>
-                    <li>
-                        <a href="">
+                    <li class="project-list-item">
+                        <a class="project-list-link list link" href="">
                             <section>
-                                <img src="./images/portfolio/project/container bg.svg" alt="">
-                                <img src="./images/portfolio/project/Growing Business.svg" alt="">
-                                <h3><span lang="en">Growing Business</span></h3>
-                                <p>Приложение</p>
+                                <img class="project-item-bg" src="./images/portfolio/project/container bg.svg" alt="">
+                                <img class="project-item-image" src="./images/portfolio/project/Growing Business.svg" alt="">
+                                <h3 class="project-item-title"><span lang="en">Growing Business</span></h3>
+                                <p class="project-item-description">Приложение</p>
                             </section>
                         </a>                        
                     </li>
@@ -151,47 +161,47 @@
         </div>
     </main>
 <!--футер-->
-<footer>
+<footer >
     <div>
-        <img src="./images/footer/Footer bg.svg" alt="">
-        <ul>
-            <li>
+        <img class="footer-bg" src="./images/footer/Footer bg.svg" alt="">
+        <ul class="footer-list link list">
+            <li class="footer-list-item">
                 <div>
-                    <h1><span lang="en">Web Studio</span></h1>
-                    <h4>г. Киев, пр-т Леси Украинки, 26</h4>
-                    <p>info@example.com</p>
-                    <p>+38 099 111 11 11</p>
+                    <h1 class="footer-logo"><span lang="en">Web <span class="footer-logo-white">Studio</span></span></h1>
+                    <h4 class="footer-address">г. Киев, пр-т Леси Украинки, 26</h4>
+                    <p class="footer-email">info@example.com</p>
+                    <p class="footer-tel">+38 099 111 11 11</p>
                 </div>
             </li>
-            <li>
+            <li class="footer-list-item">
                 <div>
-                    <h3>ПРИСОЕДИНЯЙТЕСЬ</h3>
-                <ul>
-                    <li>
-                        <a href="">
-                            <img src="./images/footer/Ellipse insta.svg" alt="">
+                    <h3 class="footer-list-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+                <ul class="footer-social-link-list">
+                    <li class="footer-social-link-item">
+                        <a class="footer-social-link link" href="">
+                            <img class="footer-social-link-image" src="./images/footer/Ellipse insta.svg" alt="">
                         </a>
                     </li>
-                    <li>
-                        <a href="">
-                            <img src="./images/footer/Ellipse twit.svg" alt="">
+                    <li class="footer-social-link-item">
+                        <a class="footer-social-link link" href="">
+                            <img class="footer-social-link-image" src="./images/footer/Ellipse twit.svg" alt="">
                         </a>
                     </li>
-                    <li>
-                        <a href="">
-                            <img src="./images/footer/Ellipse facebook.svg" alt="">
+                    <li class="footer-social-link-item">
+                        <a class="footer-social-link link" href="">
+                            <img class="footer-social-link-image" src="./images/footer/Ellipse facebook.svg" alt="">
                         </a>
                     </li>
-                    <li>
-                        <a href="">
-                            <img src="./images/footer/Ellipse slinkid.svg" alt="">
+                    <li class="footer-social-link-item">
+                        <a class="footer-social-link link" href="">
+                            <img class="footer-social-link-image" src="./images/footer/Ellipse slinkid.svg" alt="">
                         </a>
                     </li>
                 </ul>
                 </div> 
             </li>
-            <li>
-                <h3>ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+            <li class="footer-list-item">
+                <h3 class="footer-list-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
             </li>
        <ul>
 
