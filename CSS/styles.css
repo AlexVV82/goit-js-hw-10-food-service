@@ -1,0 +1,46 @@
+.body {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #212121;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.mein-menu-list-item {
+color: #212121;
+font-weight: 500;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.02em;
+
+}
+
+.mein-menu-list-item:hover,
+.mein-menu-list-item:focus {
+color: #2196F3;
+}
+
+.address-list-item {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+
+.address-list-item:hover,
+.address-list-item:focus {
+color: #2196F3;
+}
+
+
