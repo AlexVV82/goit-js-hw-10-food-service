@@ -40,8 +40,6 @@ margin: 0px;
     background: salmon;
 }
 /*Header*/
-.header {
-}
 
 .header-contaier{
     width: 1170px;
@@ -49,19 +47,6 @@ margin: 0px;
     margin: 0 auto;
     justify-content: space-between;
     
-}
-
-.navi {
-    display: inline-flex;
-}
-
-.logo,
-.mein-menu-list{
-    display: inherit;
-}
-
-.mein-menu-list-item {
-    display: inherit;
 }
 
 .logo {
@@ -88,6 +73,7 @@ margin-right: 85px;
     color: s#FFFFFF;
 }
 
+
 .mein-menu-list {
     display: inline-flex;
     justify-content: space-between;
@@ -112,14 +98,18 @@ letter-spacing: 0.02em;
 color: #2196F3;
 }
 
-.header-address {
+
+.address-list {
+    display: flex;
+    list-style: none;
 }
 
-.address,
-.address-list,
+.adil-img{
+    padding: 0;
+    margin: 0;
+}
 .address-item-link{
-    display: inline-flex;
-    list-style: none;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -129,7 +119,6 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
-margin-left: 30px;
 }
 
 .address-item-link:hover,
@@ -144,12 +133,10 @@ color: #2196F3;
     height: 600px;
 }
 
-.hero-image {  
-}
-
 .hero-header-box{
     width: 1200px;
     height: 600px;
+    padding: 0;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -187,10 +174,8 @@ color: #FFFFFF;
     font-style: normal;
     text-align: center;
     border: none;
-
-    
-    
 }
+
 /*Особенности*/
 
 .features {
@@ -199,8 +184,9 @@ color: #FFFFFF;
 }
 
 .features-list {
-    display: inline-flex;
-    justify-content: space-between;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .features-item {
@@ -298,13 +284,10 @@ margin-top: 0px;
     border: none;
 }
 
-.wdwd-desctop {
-    }
-
-.wdwd-link-image {
-}
-
-.wdwd-link-title {
+.wdwd-item-title{
+    font: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
     font-size: 14px;
 line-height: 1.14;
 /* identical to box height */
@@ -317,8 +300,9 @@ background: #757575s;
 
 }
 
-.our-team-title,
-.regular-customers {
+/*НАША КОМАНДА*/
+
+.our-team-title{
     font-size: 36px;
 line-height: 1.17;
 /* identical to box height */
@@ -326,19 +310,11 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #212121;
-margin: none;
+margin: 0;
 padding-left: 0px;
 padding-right: 0px;
 padding-top: 0px;
 padding-bottom: 50px;
-}
-
-.our-team-list-member{
-    display: inline-block;
-}
-
-.our-team-list {
-    
 }
 
 .our-team-list {
@@ -347,6 +323,11 @@ padding-bottom: 50px;
     margin: 0 auto;
     display: inline-flex;
     justify-content: space-around;
+}
+
+
+.our-team-list-member{
+    display: inline-block;
 }
 
 .otlm-photo {
@@ -382,10 +363,11 @@ color: #757575;
 
 
 .otlm-social-links-list {
+    width: 206px;
     padding-top: 16px;
     margin: 0 auto;
-    display: inline-flex;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
 }
 
 .otlm-social-links-item {
@@ -420,7 +402,8 @@ padding-bottom: 50px;
 }
 
 .regular-customers-list {
-    display: inline-flex;
+    padding-bottom: 94px;
+    display: flex;
     justify-content: space-around;
 }
 
@@ -439,6 +422,7 @@ padding-bottom: 50px;
     color: var(--accent-title-color);
 }
 .customers-logo {
+    
 }
 
  /* Footer*/
@@ -451,6 +435,8 @@ background: #2F303A;
     width: 1200px;
     margin: 0 auto;
     background:#212121;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-cont-block {
@@ -483,6 +469,7 @@ color: s#FFFFFF;
 .footer-logo,
 .footer-logo-white {
     padding-top: 60px;
+    margin-bottom: 20px;
 }
 
 .footer-address {
@@ -507,15 +494,19 @@ font-size: 14px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-bottom: 20px;
 
 color: #FFFFFF;
 }
 
-.footer-social-link-item {
-    display: inline-block;
-
+.footer-social-link-item{
+    display: flex;
+    justify-content: space-between;
 }
 
+.footer-social-link-item{
+    display: inline-block;
+}
 /*Портфолио*/
 /*Фильтр*/
 /* Портфолио вильтр кнопки*/
@@ -527,21 +518,17 @@ color: #FFFFFF;
 
 .filter-list{
     width: 1170px;
-    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    display: flex;
     justify-content: center;
     list-style: none;
    
 }
 
-.filter-list:not(:last-child){
+.filter-item:not(:last-child){
     margin-right: 4px;
 }
-
-.button-port-filter{
-
-}
-
-/*Портфолио project*/
 
 .filter-item-button {
     background:#F5F4FA;
@@ -568,13 +555,13 @@ color: #FFFFFF;
 .project-section{
     width: 1200px;
     margin: 0 auto;
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .project-list{
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
     
 }
