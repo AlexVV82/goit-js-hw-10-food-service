@@ -37,7 +37,6 @@ margin: 0px;
 .container {
     width: 1200px;
     margin: 0 auto;
-    background: salmon;
 }
 /*Header*/
 
@@ -102,16 +101,17 @@ color: #2196F3;
 .address-list {
     display: flex;
     list-style: none;
+    justify-content: space-between;
 
+}
+
+.address-list-item{
+    padding-left: 30px;
 }
 
 .address-item-link{
     display: inline-flex;
-    justify-content: space-between;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    justify-content: center;
     color: #757575;
 
 }
@@ -120,6 +120,16 @@ color: #2196F3;
 .address-item-link:focus {
 color: #2196F3;
 }
+
+.address-item-link-title{
+    font: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
 
 .adil-img{
     padding: 0;
@@ -148,18 +158,14 @@ color: #2196F3;
 .hero-header {
     font: var(--main-font);
     font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-/* or 136% */
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-text-align: center;
-
-color: #FFFFFF;
-margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .hero-button {
@@ -179,8 +185,12 @@ color: #FFFFFF;
 
 /*Особенности*/
 
+.features-container{
+    padding-top: 94px;
+}
+
 .features-list {
-    padding: 94px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     display: flex;
     justify-content: space-around;
 }
@@ -207,17 +217,16 @@ color: #FFFFFF;
 }
 
 .features-item-title {
-font: var(--main-font);
-font-size: 14px;
-font-style: normal;
-font-weight: bold;
-line-height: 1.14;
-letter-spacing: 0.03em;
-
-color: #212121;
-margin-top: 0px;
-margin-bottom: 10px;
-margin-left: 0px;
+    font: var(--main-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
 }
 
 .features-item-description {
@@ -235,6 +244,11 @@ margin-left: 0px;
 
 /*Чем мы занимаемся what do we do (wdwd)*/
 
+.wdwd-container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .wdwd-title {
     font: var(--main-font);
     font-style: normal;
@@ -244,14 +258,14 @@ margin-left: 0px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-top: 94px;
+    padding-top: 0px;
     margin-top: 0px;
 }
 
 .wdwd-list {
     width: 1200px;
     min-height: 370px;
-    padding-bottom: 94px;
+    padding-bottom: 0px;
     margin: 0 auto;
     display: inline-flex;
     justify-content: space-around;
@@ -288,6 +302,11 @@ margin-left: 0px;
 
 /*НАША КОМАНДА*/
 
+.our-team-container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .our-team-title{
     font-size: 36px;
     line-height: 1.17;
@@ -302,7 +321,6 @@ margin-left: 0px;
     width: 1200px;
     min-height: 420px;
     margin: 0 auto;
-    padding-bottom: 94px;
     display: flex;
     justify-content: space-around;
 }
@@ -363,6 +381,11 @@ margin-left: 0px;
 
 /*Наши клиенті*/
 
+.regular-customers-container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .regular-customers-title {
     font: var(--main-font);
     font-style: normal;
@@ -373,12 +396,10 @@ margin-left: 0px;
     letter-spacing: 0.03em;
     color: #212121;
     margin: 0px;
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 
 .regular-customers-list {
-    padding-bottom: 94px;
     display: flex;
     justify-content: space-around;
 }
@@ -487,11 +508,12 @@ color: #FFFFFF;
 .navi-filter-container{
     width: 1200px;
     margin: 0 auto;
+    padding-top: 94px;
 }
 
 .filter-list{
     width: 1170px;
-    padding: 94px 0px 50px 0px;
+    padding: 0px 0px 50px 0px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -531,13 +553,13 @@ color: #FFFFFF;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 94px;
 }
 
 .project-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 94px;
 }
 
 .project-list-item{
