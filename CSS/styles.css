@@ -84,17 +84,17 @@ margin-right: 85px;
 }
 
 .mein-menu-list-link {
-color: #212121;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
 }
 
 .mein-menu-list-link:hover,
 .mein-menu-list-link:focus {
-color: #2196F3;
+    color: #2196F3;
 }
 
 
@@ -110,7 +110,7 @@ color: #2196F3;
 }
 
 .address-item-link{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     color: #757575;
 
@@ -122,7 +122,7 @@ color: #2196F3;
 }
 
 .address-item-link-title{
-    font: Roboto;
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -132,7 +132,7 @@ color: #2196F3;
 
 
 .adil-img{
-    padding: 0;
+    padding: 0px 10px 0px 0px;
     margin: 0;
 }
 
