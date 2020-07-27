@@ -467,7 +467,7 @@ color: #2196F3;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    color: #757575;
+    fill: #757575;
     background-color: #FFFFFF;
 }
 
@@ -634,13 +634,19 @@ margin: 0px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    color: #ffffff;
+    fill: #ffffff;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-link-icon{
+    width: 20px;
+    height: 20px;    
+    fill: #757575;
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus{
-    color: #ffffff;
+    fill: #ffffff;
     background-color:#2196F3;
 
 }
