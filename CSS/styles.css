@@ -134,8 +134,7 @@ margin: 0px;
 }
 
 .address-list-item{
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
     padding-left: 30px;
     margin: 32px 0px 32px 0px;
 
@@ -143,17 +142,17 @@ margin: 0px;
 
 .address-item-link{
     height: 16px;
-    display: block;
-    justify-content: center;
+    width: 32px;
     color: #757575;
 
 }
 
 .address-item-link-icon{
-    display: block;
+    display: inline-block;
     height: 16px;
     padding: 0px;
     margin: 0px;
+    fill: currentColor;
 }
 
 .address-item-link:hover,
@@ -162,8 +161,10 @@ color: #2196F3;
 
 }
 
-.address-item-link.address-item-link-icon:hover,
-.address-item-link.address-item-link-icon:hover{}
+.address-item-link:hover.address-item-link-icon,
+.address-item-link:focus.address-item-link-icon{
+    fill: var(--accent-title-color);
+}
 
 .address-item-link-title{
     font-family: var(--main-font);
@@ -177,9 +178,10 @@ color: #2196F3;
 }
 
 
-.adil-img{
-    padding: 0px 10px 0px 0px;
-    margin: 0;
+.address-item-link-title{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -459,30 +461,27 @@ color: #2196F3;
 .otlm-sli{
     padding: 0;
     border: none;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    color: #757575;
     background-color: #FFFFFF;
 }
 
 .otlm-sli:hover,
 .otlm-sli:focus{
-
+    fill: #FFFFFF;
     background-color: var(--accent-title-color);
 }
 
 .otlm-sli-icon {
     display: block;
-    justify-content: center;
-    align-items: center;
     height: 20px;
     width: 20px;
-}
-
-.otlm-sli-image:hover
-.otlm-sli-image:focus {
-   background: var(--accent-title-color);
+    fill: currentColor;
 }
 
 /*Наши клиенті*/
@@ -620,18 +619,31 @@ margin: 0px;
     width: 206px;
     height: 44px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.footer-social-link-item{
-}
-
-.footer-social-link-image{
+.footer-social-link{
+    padding: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
+.footer-social-link:hover,
+.footer-social-link:focus{
+    color: #ffffff;
+    background-color:#2196F3;
+
+}
 
 /*Портфолио*/
 /*Фильтр*/
