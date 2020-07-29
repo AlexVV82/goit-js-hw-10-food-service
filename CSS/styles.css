@@ -539,16 +539,20 @@ color: #2196F3;
     fill: #AFB1B8;
 }
 
-
-/*.regular-customers-item:hover.customers-logo,
-.regular-customers-item:focus.customers-logo{
+.regular-customers-item:hover,
+.regular-customers-item:focus{
     border: 1px solid var(--accent-title-color);
-    fill: var(--accent-title-color);
 
 }
-*/
-.customers-logo:hover.regular-customers-item,
-.customers-logo:focus.regular-customers-item{
+
+.regular-customers-item:hover .customers-logo,
+.regular-customers-item:focus .customers-logo{
+    fill: var(--accent-title-color);
+}
+
+
+/*.customers-logo:hover,
+.customers-logo:focus{
     fill: var(--accent-title-color);
 }
 
