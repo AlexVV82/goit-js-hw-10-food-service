@@ -106,6 +106,7 @@ margin: 0px;
 }
 
 .mein-menu-list-link::after{
+    position: relative;
     display: block;    
     height: 4px;
     border-radius: 2px;
@@ -115,8 +116,19 @@ margin: 0px;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 0;
 
 }
+ .current::after{
+    position: relative;
+    display: block;    
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-title-color);
+    content: "";
+    z-index: 100;
+    margin-top: -4px;
+ }
 
 .mein-menu-list-link:hover,
 .mein-menu-list-link:focus {
@@ -892,7 +904,7 @@ margin: 0px;
     opacity: 0;
 }
 
-.project-list-item:hover.project-item-image-overflow{
+.project-list-item:hover .project-item-image-overflow{
     transform: translateY(0);
     transition: 250ms ease;
     opacity: 1;
