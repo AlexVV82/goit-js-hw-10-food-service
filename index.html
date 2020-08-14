@@ -57,7 +57,7 @@
     <section class="hero">
             <div class="hero-header-box list link">
                 <h1 class="hero-header">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <button type="button" class="hero-button link">Заказать услугу</button>
+                <button data-modal-open type="button" class="hero-button link">Заказать услугу</button>
             </div>
     </section>
 <!--Особенности-->
@@ -379,5 +379,33 @@
         </div>
     </div>
 </footer>
+<div data-modal class="backdrop is-hidden">
+    <form action="#" class="modal-form ">
+        <button data-modal-close class="modal-form-close-button">х</button>
+        <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
+        <div class="modal-form-input-wrapper">
+            <label for="" class="modal-form-input-label">Имя</label>
+            <input type="text" name="user-name" id="user-name-modal" class="modal-form-input">
+        </div>
+        <div class="modal-form-input-wrapper">
+            <label for="" class="modal-form-input-label">Телефон</label>
+            <input type="tel" name="user-tel" id="user-tel-modal" class="modal-form-input">
+        </div>
+        <div class="modal-form-input-wrapper">
+            <label for="" class="modal-form-input-label">Почта</label>
+            <input type="email" name="user-email" id="user-email-modal" class="modal-form-input">
+        </div>
+        <div class="modal-form-input-wrapper">
+            <label for="" class="modal-form-input-label">Комментарий</label>
+            <textarea name="user-massege" id="" class="modal-form-message" placeholder=""></textarea>
+        </div>        
+        <label  class="modal-form-option-label">
+            <input type="checkbox" name="policy" value="accept-policy" class="modal-form-checkbox">
+            <span class="modal-form-option-span">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></span>
+        </label>
+        <button type="submit" class="modal-form-button">Отправить</button>
+    </form>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
