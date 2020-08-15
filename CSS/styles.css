@@ -171,7 +171,7 @@ margin: 0px;
     display: inline-block;
     height: 16px;
     padding: 0px;
-    margin: 0px;
+    margin-right: 8px;
     fill: currentColor;
 }
 
@@ -503,7 +503,7 @@ color: #2196F3;
     height: 44px;
     border-radius: 50%;
     background-color: #FFFFFF;
-    fill: #757575 ;
+    fill: #AFB1B8 ;
     transition-property: fill background;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -761,6 +761,7 @@ margin: 0px;
     font-weight: bold;
     font-style: normal;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .subscribe-icon-send{
@@ -974,10 +975,12 @@ color: #757575;
 
 .modal-form-input{
     height: 40px;
+    padding-left: 40px;
 }
 
 .modal-form-message{
-    height: 120px;    
+    height: 120px;   
+    padding: 12px 16px 12px 16px; 
     resize: none;
 }
 
@@ -991,20 +994,6 @@ color: #757575;
     border-radius: 4px;
 }
 
-.modal-form-input-label{
-    position: absolute;
-    top: 14px;
-    left: 0;
-    transform: translateY(0%);
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    padding-left: 32px;
-    color: #757575;
-}
-
 .modal-form-message{
     font-family: var(--main-font);
     font-style: normal;
@@ -1014,10 +1003,34 @@ color: #757575;
     color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-form-input:focus{
+
+.modal-form-input-label{
+    position: absolute;
+    top: -16px;
+    left: 0;
+    transform: translateY(0%);
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #757575;
+}
+
+.modal-form-input-label-icon{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.modal-form-input:hover{
     border-color: #2196F3;
 }
 
+.modal-form-input:hover.modal-form-input-label-icon{
+    fill: var(--accent-title-color);
+}
 
 
 .modal-form-option-label{
