@@ -1024,9 +1024,12 @@ color: #757575;
     transform: translate(-50%, -50%);
 }
 
-.modal-form-input:hover,
-.modal-form-input:focus{
+.modal-form-input:hover{
     border-color: #2196F3;
+}
+
+.modal-form-input:hover + .modal-form-input-label-icon{
+    fill: var(--accent-title-color);
 }
 
 .modal-form-option-label{
