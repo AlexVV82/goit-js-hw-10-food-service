@@ -1024,14 +1024,10 @@ color: #757575;
     transform: translate(-50%, -50%);
 }
 
-.modal-form-input:hover{
+.modal-form-input:hover,
+.modal-form-input:focus{
     border-color: #2196F3;
 }
-
-.modal-form-input:hover.modal-form-input-label-icon{
-    fill: var(--accent-title-color);
-}
-
 
 .modal-form-option-label{
     display: flex;
@@ -1040,8 +1036,31 @@ color: #757575;
 }
 
 .modal-form-checkbox{
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+}
+
+.modal-form-custom-checkbox{
+    display: inline-block;
     width: 16px;
     height: 15px;
+    background-image: url("../images/Modal window/check border.svg"), url("../images/Modal window/check point.svg");
+    background-size: 16px 15px, 11px 8px, cover;
+    background-repeat: no-repeat;
+    background-position: top 0px right 0px, top 3px right 3px ;
+
+}
+
+.modal-form-checkbox:checked + .modal-form-custom-checkbox{
+    background-color: var(--accent-title-color);
+    background-image: url("../images/Modal window/check point.svg");
+
 }
 
 .modal-form-option-span{
