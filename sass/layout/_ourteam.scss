@@ -1,0 +1,105 @@
+.our-team-container{
+    background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.our-team-title{
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0;
+    padding: 0px 0px 50px 0px;
+}
+
+.our-team-list {
+    width: 1200px;
+    min-height: 420px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-team-list-member{
+    display: inline-block;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--title-dark-theme-color);
+}
+
+.otlm-photo {
+    width: 270px;
+    min-height: 260px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.otlm-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 30px;
+    margin: 0px;
+    color: var(--title-lite-theme-color)
+}
+
+.otlm-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 10px;
+    margin: 0px;
+    color: #757575;
+}
+
+.otlm-social-links-list {
+    width: 206px;
+    padding-top: 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.otlm-social-links-item {
+    display: block;
+}
+
+.otlm-sli{
+    padding: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    fill: #AFB1B8 ;
+    transition-property: fill background;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+
+.otlm-sli-icon {
+    display: block;
+    height: 20px;
+    width: 20px;
+}
+
+.otlm-sli:hover,
+.otlm-sli:focus{
+    fill: #FFFFFF;
+    background-color: var(--accent-title-color);
+}
+
+.otlm-sli-icon:hover,
+.otlm-sli-icon:focus{
+    fill: #FFFFFF;
+}

@@ -1,0 +1,176 @@
+.footer {
+    background: #2F303A;
+    }
+    
+    .footer-container {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0px 60px 0px;
+    }
+    
+    .footer-cont-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding: 0px;
+        margin: 0px;
+    
+    }
+    
+    .footer-logo {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    
+    .footer-logo-white {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        padding: 0px;
+        margin: 0px;
+    
+    }
+    
+    .footer-logo,
+    .footer-logo-white {
+        padding-top: 0px;
+        margin-bottom: 0px;
+        justify-content: left;
+    }
+    
+    .footer-address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+    
+    }
+    
+    .footer-list-title {
+        font-size: 14px;
+        font-style:;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+    }
+    
+    .footer-email,
+    .footer-tel {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        padding-bottom: 9px;
+        margin: 0px;
+    
+    }
+    
+    .footer-link-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    
+    }
+    
+    .footer-social-link-list{
+        width: 206px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .footer-social-link{
+        padding: 0;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        fill: #ffffff;
+        background-color: rgba(255, 255, 255, 0.1);
+        transition-property: fill background;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
+    
+    .footer-social-link-icon{
+        width: 20px;
+        height: 20px;    
+        fill: #ffffff;
+    }
+    
+    .footer-social-link:hover,
+    .footer-social-link:focus{
+        fill: #ffffff;
+        background-color:#2196F3;
+    
+    }
+    
+    .email-contact-cell{
+        width: 358px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: #2F303A;
+        padding-left: 15px;
+        margin: 0;
+    
+    }
+    
+    .subscribe-mailing{
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+        border: 0px;
+        border-radius: 4px;
+        background: #2196F3;
+        font: var(--main-font);
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    .subscribe-icon-send{
+        display: inline-block;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        fill: white;
+    
+    }
+    .email-contact-cell:focus,
+    .email-contact-cell:hover{
+        border: 1px solid var(--accent-title-color);
+    
+    }

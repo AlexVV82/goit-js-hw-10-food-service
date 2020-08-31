@@ -1,0 +1,66 @@
+.regular-customers-container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.regular-customers-title {
+    font: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+.regular-customers-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.regular-customers-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    fill: #AFB1B8;
+    border-radius: 4px;
+    transition-property: fill border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+
+.regular-customers-link{
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.customers-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.regular-customers-item:hover,
+.regular-customers-item:focus{
+    border: 1px solid var(--accent-title-color);
+
+}
+
+.regular-customers-item:hover .customers-logo,
+.regular-customers-item:focus .customers-logo{
+    fill: var(--accent-title-color);
