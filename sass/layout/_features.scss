@@ -57,7 +57,7 @@
 
 
 .features-item-title {
-    font: var(--main-font);
+    font: $main-font;
     font-size: 14px;
     font-style: normal;
     font-weight: bold;
@@ -71,7 +71,7 @@
 }
 
 .features-item-description {
-    font: var(--main-font);
+    font: $main-font;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;

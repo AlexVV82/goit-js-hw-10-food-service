@@ -76,7 +76,7 @@
   display: block;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--accent-title-color);
+  background-color: $accent-title-color;
   content: "";
   z-index: 100;
   margin-top: -4px;
@@ -84,15 +84,15 @@
 
 .mein-menu-list-link:hover,
 .mein-menu-list-link:focus {
-  color: var(--accent-title-color);
+  color: $accent-title-color;
 }
 
 .mein-menu-list-link:hover.mein-menu-list-link::after {
-  background-color: var(--accent-title-color);
+  background-color: $accent-title-color;
 }
 
 .mein-menu-list-link:focus.mein-menu-list-link::after {
-  background-color: var(--accent-title-color);
+  background-color: $accent-title-color;
 }
 
 .address-list {
@@ -131,11 +131,11 @@
 
 .address-item-link:hover.address-item-link-icon,
 .address-item-link:focus.address-item-link-icon {
-  fill: var(--accent-title-color);
+  fill: $accent-title-color;
 }
 
 .address-item-link-title {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;

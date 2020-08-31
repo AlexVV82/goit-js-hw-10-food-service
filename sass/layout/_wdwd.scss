@@ -4,7 +4,7 @@
 }
 
 .wdwd-title {
-    font: var(--main-font);
+    font: $main-font;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -58,7 +58,7 @@
     align-items: center;
     bottom: 0;
     margin: 0px;
-    font: var(--main-font);
+    font: $main-font;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;

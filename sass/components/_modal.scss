@@ -21,7 +21,7 @@
 }
 
 .modal-form-title{
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -51,14 +51,14 @@
 .modal-form-message{
     display: block;
     width: 100%;
-    font-family: var(--main-font);
+    font-family: $main-font;
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
 }
 
 .modal-form-message{
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -72,7 +72,7 @@
     top: -16px;
     left: 0;
     transform: translateY(0%);
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -92,7 +92,7 @@
 }
 
 .modal-form-input:hover.modal-form-input-label-icon{
-    fill: var(--accent-title-color);
+    fill: $accent-title-color;
 }
 
 
@@ -114,7 +114,7 @@
 
 .modal-form-option-span a {
     text-decoration: underline;
-    color: var(--accent-title-color);
+    color: $accent-title-color;
 }
 
 .modal-form-button{
@@ -149,7 +149,7 @@
 
 .modal-form-close-button:focus,
 .modal-form-close-button:hover{
-    border: 1px solid var(--accent-title-color);
-    color: var(--accent-title-color);
+    border: 1px solid $accent-title-color;
+    color: $accent-title-color;
 
 }

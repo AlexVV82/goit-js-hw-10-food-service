@@ -10,7 +10,7 @@ html {
 
 body {
   background-color: #ffffff;
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-size: 18px;
   color: #212121;
 }
